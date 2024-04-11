@@ -1,0 +1,7 @@
+DATA gv_desg_01 TYPE i.
+DATA gv_desg_02 TYPE n LENGTH 10.
+gv_desg_01 = 15.
+gv_desg_02 = 10.
+IF gv_desg_01 > gv_desg_02.
+WRITE 'Değişgen 1 değişken 2den büyüktür'.
+ENDIF.
